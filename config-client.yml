@@ -1,5 +1,5 @@
 spring:
-    prfiles:
+    profiles:
         active: dev
 ---
 server:
@@ -22,7 +22,7 @@ server:
     port: 8202
 #spring的配置
 spring:
-  prfiles: test
+  profiles: test
   application:
     name: springcloud-provider-test
 
